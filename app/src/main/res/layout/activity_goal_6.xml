@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/layout_drawer"
+    android:background="#b6e1df"
+    tools:context=".Goals.Goal_6">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/nav_toolbar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="593dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+                <ScrollView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="6dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+
+                            <TextView
+                                android:id="@+id/title_roadmap_steps"
+                                android:layout_width="0dp"
+                                android:layout_height="101dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="4dp"
+                                android:layout_marginEnd="20dp"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="top"
+                                android:text="Why are goal statements so important? "
+                                android:textAlignment="center"
+                                android:textAllCaps="true"
+                                android:textSize="25dp"
+                                android:textStyle="bold"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
+
+
+
+<!--                            <androidx.cardview.widget.CardView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_marginStart="20dp"-->
+<!--                                android:layout_marginEnd="20dp"-->
+<!--                                app:cardBackgroundColor="@android:color/transparent"-->
+<!--                                app:cardElevation="0dp"-->
+<!--                                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                app:layout_constraintStart_toStartOf="parent"-->
+<!--                                app:layout_constraintTop_toTopOf="parent">-->
+
+<!--                                <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                                    android:layout_width="match_parent"-->
+<!--                                    android:layout_height="wrap_content"-->
+<!--                                    app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">-->
+
+
+<!--                                    <RelativeLayout-->
+<!--                                        android:id="@+id/layout_rl"-->
+<!--                                        android:layout_width="match_parent"-->
+<!--                                        android:layout_height="wrap_content"-->
+<!--                                        android:layout_marginStart="20dp"-->
+<!--                                        android:layout_marginTop="20dp"-->
+<!--                                        android:layout_marginEnd="20dp"-->
+<!--                                        android:background="#bfdfe2"-->
+<!--                                        app:layout_constraintEnd_toEndOf="parent"-->
+<!--                                        app:layout_constraintStart_toStartOf="parent"-->
+<!--                                        app:layout_constraintTop_toTopOf="parent">-->
+
+
+                            <View
+                                android:id="@+id/vTop"
+                                android:layout_width="0dp"
+                                android:layout_height="4dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:background="@android:color/white"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <View
+                                android:id="@+id/view"
+                                android:layout_width="4dp"
+                                android:layout_height="0dp"
+                                android:layout_marginStart="20dp"
+                                android:background="@android:color/white"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                            <View
+                                android:id="@+id/barleft1"
+                                android:layout_width="4dp"
+                                android:layout_height="0dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginEnd="20dp"
+                                android:background="@android:color/white"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/vTop" />
+
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_height="4dp"
+                                android:layout_below="@id/barleft1"
+                                android:layout_alignParentBottom="true"
+                                android:layout_marginTop="20dp"
+                                android:background="@android:color/white"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/barleft1"
+                                app:layout_constraintHorizontal_bias="0.0"
+                                app:layout_constraintStart_toEndOf="@+id/view"
+                                app:layout_constraintTop_toBottomOf="@+id/why_goal_important_text_5"
+                                app:layout_constraintVertical_bias="0.986" />
+
+                            <TextView
+                                android:id="@+id/why_goal_important_text_1"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/vTop"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="10dp"
+                                android:fontFamily="@font/montserrat"
+                                android:text="@string/Why_So_Important_One"
+                                android:textSize="18sp"
+                                app:layout_constraintEnd_toEndOf="@+id/barleft1"
+                                app:layout_constraintStart_toEndOf="@+id/view"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                            <TextView
+
+                                android:id="@+id/textView10"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/why_goal_important_text_1"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="10dp"
+                                android:fontFamily="@font/montserrat"
+                                android:text="@string/Why_So_Important_2"
+                                android:textSize="18sp"
+                                app:layout_constraintEnd_toStartOf="@+id/barleft1"
+                                app:layout_constraintStart_toEndOf="@+id/view"
+                                app:layout_constraintTop_toBottomOf="@+id/why_goal_important_text_1" />
+
+
+                            <TextView
+                                android:id="@+id/why_goal_important_text_4"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/textView10"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="10dp"
+                                android:fontFamily="@font/montserrat"
+                                android:text="Have a good think about the deepest reasons for your goal"
+                                android:textSize="18sp"
+                                app:layout_constraintEnd_toStartOf="@+id/barleft1"
+                                app:layout_constraintStart_toEndOf="@+id/view"
+                                app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+                            <TextView
+                                android:id="@+id/why_goal_important_text_5"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/why_goal_important_text_4"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginEnd="10dp"
+                                android:fontFamily="@font/montserrat"
+                                android:text="Click NEXT to create your own goal statement."
+                                android:textSize="18sp"
+                                app:layout_constraintEnd_toStartOf="@+id/barleft1"
+                                app:layout_constraintStart_toEndOf="@+id/view"
+                                app:layout_constraintTop_toBottomOf="@+id/why_goal_important_text_4" />
+
+
+                            <!--                                        &lt;!&ndash;                            <Button&ndash;&gt;-->
+<!--                                        &lt;!&ndash;                                android:id="@+id/btn_begin_Quick_Coaching"&ndash;&gt;-->
+<!--                                        &lt;!&ndash;                                android:layout_width="200dp"&ndash;&gt;-->
+<!--                                        &lt;!&ndash;                                android:layout_height="60dp"&ndash;&gt;-->
+<!--                                        &lt;!&ndash;                                android:layout_centerHorizontal="true"&ndash;&gt;-->
+<!--                                        &lt;!&ndash;                                android:layout_marginTop="390dp"&ndash;&gt;-->
+<!--                                        &lt;!&ndash;                                android:layout_marginBottom="20dp"&ndash;&gt;-->
+<!--                                        &lt;!&ndash;                                android:background="@drawable/button_shape"&ndash;&gt;-->
+<!--                                        &lt;!&ndash;                                android:fontFamily="@font/montserrat"&ndash;&gt;-->
+<!--                                        &lt;!&ndash;                                android:onClick="btn_begin_Quick_Coaching"&ndash;&gt;-->
+<!--                                        &lt;!&ndash;                                android:text="BEGIN"&ndash;&gt;-->
+
+<!--                                        &lt;!&ndash;                                android:textColor="#84c2c8"&ndash;&gt;-->
+<!--                                        &lt;!&ndash;                                android:textSize="20dp"&ndash;&gt;-->
+
+<!--                                        &lt;!&ndash;                                />&ndash;&gt;-->
+
+
+<!--                                    </RelativeLayout>-->
+
+
+<!--                                </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                            </androidx.cardview.widget.CardView>-->
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+                            <Button
+                                android:id="@+id/goal_6"
+                                android:layout_width="199dp"
+                                android:layout_height="48dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="12dp"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginBottom="200dp"
+                                android:background="@drawable/button_shape"
+                                android:fontFamily="@font/montserrat"
+                                android:onClick="btn_goal_6_next"
+                                android:text="NEXT"
+                                android:textColor="#84c2c8"
+                                android:textSize="20dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </ScrollView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <include-->
+<!--            layout="@layout/nav_toolbar"-->
+<!--            android:id="@+id/toolbar"/>-->
+<!--        <ScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/toolbar">-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/image">-->
+
+
+
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:textStyle="bold"-->
+<!--                android:fontFamily="@font/montserrat"-->
+<!--                android:text="Why are goal statements so important? "-->
+<!--                android:textSize="25dp"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:layout_marginRight="30dp"-->
+<!--                android:textAlignment="center"-->
+<!--                android:textAllCaps="true"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:gravity="top"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:id="@+id/title_roadmap_steps"/>-->
+
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="#bfdfe2"-->
+<!--                android:id="@+id/layout_rl"-->
+<!--                android:layout_marginTop="130dp">-->
+
+
+
+
+
+
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="4dp"-->
+<!--                android:layout_marginRight="40dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:background="@android:color/white"/>-->
+
+<!--            <View-->
+<!--                android:layout_width="4dp"-->
+<!--                android:layout_height="714dp"-->
+<!--                android:layout_marginLeft="24dp"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:layout_marginRight="10dp"-->
+<!--                android:background="@android:color/white" />-->
+
+<!--            <View-->
+<!--                android:layout_width="4dp"-->
+<!--                android:layout_height="714dp"-->
+<!--                android:layout_marginRight="24dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:background="@android:color/white"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:id="@+id/barleft1"/>-->
+
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="4dp"-->
+<!--                android:layout_marginRight="40dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:background="@android:color/white"-->
+<!--                android:id="@+id/bar_botton"-->
+<!--                android:layout_below="@id/barleft1"/>-->
+
+
+<!--                          <TextView-->
+<!--                            android:layout_centerHorizontal="true"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="@string/Why_So_Important_One"-->
+<!--                            android:textSize="18sp"-->
+<!--                             android:layout_marginRight="80dp"-->
+<!--                            android:id="@+id/why_goal_important_text_1"-->
+<!--                            android:fontFamily="@font/montserrat"/>-->
+
+<!--                        <TextView-->
+<!--                        android:layout_centerHorizontal="true"-->
+<!--                        android:layout_marginTop="30dp"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/Why_So_Important_2"-->
+<!--                        android:textSize="18sp"-->
+<!--                            android:layout_marginRight="80dp"-->
+<!--                        android:layout_below="@+id/why_goal_important_text_1"-->
+<!--                        android:id="@+id/why_goal_important_text_2"-->
+<!--                        android:fontFamily="@font/montserrat"/>-->
+
+<!--                        <TextView-->
+<!--                            android:layout_centerHorizontal="true"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_width="330dp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="@string/Why_So_Important_2"-->
+<!--                            android:textSize="18sp"-->
+<!--                            android:layout_marginRight="80dp"-->
+<!--                            android:layout_below="@+id/why_goal_important_text_2"-->
+<!--                            android:id="@+id/why_goal_important_text_3"-->
+<!--                            android:fontFamily="@font/montserrat"/>-->
+
+<!--                        <TextView-->
+<!--                            android:layout_centerHorizontal="true"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_width="330dp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginRight="80dp"-->
+<!--                            android:text="Have a good think about the deepest reasons for your goal"-->
+<!--                            android:textSize="18sp"-->
+<!--                            android:layout_below="@+id/why_goal_important_text_3"-->
+<!--                            android:id="@+id/why_goal_important_text_4"-->
+<!--                            android:fontFamily="@font/montserrat"/>-->
+
+
+<!--                        <TextView-->
+<!--                            android:layout_centerHorizontal="true"-->
+<!--                            android:layout_marginTop="30dp"-->
+<!--                            android:layout_width="330dp"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:text="Click NEXT to create your own goal."-->
+<!--                            android:textSize="18sp"-->
+<!--                            android:layout_marginRight="80dp"-->
+<!--                            android:layout_below="@+id/why_goal_important_text_4"-->
+<!--                            android:id="@+id/why_goal_important_text_5"-->
+<!--                            android:fontFamily="@font/montserrat"/>-->
+
+
+
+
+
+<!--            </RelativeLayout>-->
+
+
+
+<!--            <Button-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="60dp"-->
+<!--                android:layout_below="@id/layout_rl"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:background="@drawable/button_shape"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:text="NEXT"-->
+<!--                android:fontFamily="@font/montserrat"-->
+<!--                android:textSize="20dp"-->
+<!--                android:id="@+id/goal_6"-->
+<!--                android:onClick="btn_goal_6_next"-->
+
+<!--                android:textColor="#84c2c8"/>-->
+
+
+
+
+
+
+
+<!--        </RelativeLayout>-->
+
+
+<!--        </ScrollView>-->
+
+<!--    </RelativeLayout>-->
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/nav_drawer"
+        app:menu="@menu/toolbar_nav_drawer"
+        />
+</androidx.drawerlayout.widget.DrawerLayout>

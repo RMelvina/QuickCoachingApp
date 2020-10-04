@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_drawer"
+    android:fitsSystemWindows="true"
+    android:background="#bfdfe2"
+    tools:context=".Goals.Goal_Question_5">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/nav_toolbar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="593dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+                <ScrollView
+                    android:id="@+id/goalDisplayParentView"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="20dp"
+                                android:fontFamily="@font/montserrat"
+                                android:text="MY ROADMAP"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/white"
+                                android:textSize="20dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout7"
+                            android:layout_width="79dp"
+                            android:layout_height="404dp"
+                            android:layout_marginTop="8dp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
+
+                            <ImageView
+                                android:id="@+id/imageView"
+                                android:layout_width="70dp"
+                                android:layout_height="90dp"
+
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="20dp"
+                                android:background="@drawable/arrow_up"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="90dp"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="206dp"
+                                android:layout_marginEnd="20dp"
+                                android:background="@drawable/icon_arrow_down"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout2"
+                            android:layout_width="0dp"
+                            android:layout_height="404dp"
+                            android:layout_marginStart="3dp"
+                            android:layout_marginEnd="16dp"
+                            android:layout_marginBottom="16dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/constraintLayout7"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout5"
+                            app:layout_constraintVertical_bias="0.073">
+
+                            <ScrollView
+                                android:id="@+id/goalDisplayChildView"
+                                android:layout_width="0dp"
+                                android:layout_height="389dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginBottom="16dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="1.0">
+
+                                <LinearLayout
+                                    android:id="@+id/steps_layout_display_steps"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+
+                                    <TextView
+                                        android:id="@+id/display_goal_step_txt_box"
+                                        android:layout_width="220dp"
+                                        android:layout_height="60dp"
+                                        android:background="@android:color/white"
+                                        android:fontFamily="@font/montserrat"
+                                        android:hint="GOAL:"
+                                        android:textColor="#326b6f"
+                                        android:textSize="23dp" />
+
+                                    <TextView
+                                        android:id="@+id/edit_text_box_2"
+                                        android:layout_width="220dp"
+                                        android:layout_height="60dp"
+                                        android:layout_marginTop="10dp"
+                                        android:background="@android:color/white"
+                                        android:fontFamily="@font/montserrat"
+                                        android:gravity="center_vertical"
+                                        android:hint="To do this first I must....."
+                                        android:textAlignment="center"
+                                        android:textColor="#326b6f" />
+
+
+                                </LinearLayout>
+
+                            </ScrollView>
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout13"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout2" />
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.347"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout13">
+
+
+                            <ImageView
+                                android:id="@+id/i1"
+                                android:layout_width="46dp"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="100dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginEnd="4dp"
+                                android:layout_marginBottom="3dp"
+                                android:background="@drawable/hazardicon"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/i2"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.0" />
+
+                            <ImageView
+                                android:id="@+id/i2"
+                                android:layout_width="46dp"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="4dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginEnd="4dp"
+                                android:layout_marginBottom="3dp"
+                                android:layout_toRightOf="@+id/i1"
+                                android:background="@drawable/hazardicon"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/i3"
+                                app:layout_constraintStart_toEndOf="@+id/i1"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@+id/i3"
+                                android:layout_width="46dp"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="4dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginEnd="2dp"
+                                android:layout_marginBottom="3dp"
+                                android:layout_toRightOf="@+id/i2"
+                                android:background="@drawable/hazardicon"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toStartOf="@+id/i4"
+                                app:layout_constraintStart_toEndOf="@+id/i2"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@+id/i4"
+                                android:layout_width="46dp"
+                                android:layout_height="40dp"
+                                android:layout_marginStart="4dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginEnd="116dp"
+                                android:layout_toRightOf="@+id/i3"
+                                android:background="@drawable/hazardicon"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@+id/i3"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+
+                            <Button
+                                android:layout_width="235dp"
+                                android:layout_height="46dp"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginBottom="300dp"
+                                android:background="@drawable/button_shape"
+                                android:fontFamily="@font/montserrat"
+                                android:onClick="btn_next"
+                                android:text="NEXT"
+                                android:textColor="#326b6f"
+                                android:textSize="28dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </ScrollView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <include-->
+<!--            layout="@layout/nav_toolbar"-->
+<!--            android:id="@+id/toolbar"/>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_below="@+id/toolbar">-->
+
+<!--            <ScrollView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent">-->
+
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="20dp">-->
+
+
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:id="@+id/arrow_up" >-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="70dp"-->
+<!--                    android:layout_height="90dp"-->
+<!--                    android:background="@drawable/arrow_up"-->
+
+<!--                    />-->
+
+<!--            </LinearLayout>-->
+
+
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="379dp"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:id="@+id/arrow_down"-->
+
+<!--                >-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="70dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_height="90dp"-->
+<!--                    android:background="@drawable/icon_arrow_down"-->
+<!--                    />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </RelativeLayout>-->
+
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="220dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:id="@+id/goal_layout"-->
+<!--            android:layout_marginRight="30dp">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_marginTop="60dp">-->
+
+
+<!--                <ScrollView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="400dp">-->
+
+<!--                    <LinearLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/steps_layouts"-->
+<!--                        android:orientation="vertical">-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="220dp"-->
+<!--                            android:layout_height="60dp"-->
+<!--                            android:hint="GOAL:"-->
+<!--                            android:fontFamily="@font/montserrat"-->
+<!--                            android:textColor="#326b6f"-->
+<!--                            android:textSize="23dp"-->
+<!--                            android:id="@+id/display_goal_step_txt_box"-->
+<!--                            android:background="@android:color/white"/>-->
+
+<!--                        <TextView-->
+<!--                            android:layout_width="220dp"-->
+<!--                            android:layout_height="60dp"-->
+<!--                            android:layout_marginTop="10dp"-->
+<!--                            android:gravity="center_vertical"-->
+<!--                            android:hint="To do this first I must....."-->
+<!--                            android:fontFamily="@font/montserrat"-->
+<!--                            android:textAlignment="center"-->
+<!--                            android:id="@+id/edit_text_box_2"-->
+<!--                            android:textColor="#326b6f"-->
+<!--                            android:background="@android:color/white"/>-->
+
+
+
+<!--                    </LinearLayout>-->
+
+<!--                </ScrollView>-->
+
+<!--            </LinearLayout>-->
+
+
+
+
+
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginRight="40dp"-->
+<!--            android:id="@+id/bototm_text"-->
+<!--            android:gravity="center">-->
+
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:textColor="@android:color/white"-->
+<!--                android:fontFamily="@font/montserrat"-->
+<!--                android:text="MY ROADMAP"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textAlignment="center" />-->
+
+<!--        </RelativeLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_below="@id/goal_layout"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_marginTop="29dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginRight="40dp"-->
+<!--            android:id="@+id/bototm_icon"-->
+<!--            android:gravity="center">-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="46dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:background="@drawable/hazardicon"-->
+<!--                android:id="@+id/i1" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="46dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:background="@drawable/hazardicon"-->
+<!--                android:id="@+id/i2"-->
+<!--                android:layout_toRightOf="@+id/i1"/>-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="46dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:background="@drawable/hazardicon"-->
+<!--                android:id="@+id/i3"-->
+<!--                android:layout_toRightOf="@+id/i2"/>-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="46dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:background="@drawable/hazardicon"-->
+<!--                android:id="@+id/i4"-->
+<!--                android:layout_toRightOf="@+id/i3"/>-->
+
+
+
+
+
+
+
+
+<!--        </RelativeLayout>-->
+
+
+
+
+<!--        <Button-->
+<!--            android:layout_width="230dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:background="@drawable/button_shape"-->
+<!--            android:text="NEXT"-->
+<!--            android:layout_marginTop="529dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_marginLeft="60dp"-->
+<!--            android:layout_marginRight="60dp"-->
+<!--            android:textColor="#326b6f"-->
+<!--            android:fontFamily="@font/montserrat"-->
+<!--            android:textSize="28dp"-->
+<!--            android:onClick="btn_next"-->
+<!--            />-->
+
+<!--                </RelativeLayout>-->
+
+<!--            </ScrollView>-->
+
+<!--        </RelativeLayout>-->
+
+
+
+
+
+
+
+
+<!--    </RelativeLayout>-->
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/nav_drawer"
+        app:menu="@menu/toolbar_nav_drawer"
+        />
+
+</androidx.drawerlayout.widget.DrawerLayout>

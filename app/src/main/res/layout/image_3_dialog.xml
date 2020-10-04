@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#b6e1df"
+    android:layout_gravity="center"
+    android:layout_width="300dp"
+    android:layout_height="200dp">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btn_back_3"
+        android:background="@drawable/slide_21_3"/>
+
+
+</LinearLayout>

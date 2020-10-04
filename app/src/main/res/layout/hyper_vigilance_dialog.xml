@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#b6e1df"
+    android:layout_width="350dp"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hyper vigilance\n during stress"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:gravity="center"
+        android:src="@drawable/slide_8_hyper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:fontFamily="@font/montserrat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="Hyper vigilance changes how we\n perceive the world around us.\n Once our fight or flight defence\n mechanism has kicked in - we are\n more likely to see something as a\n threat and respond to it in a\n negative/defensive or even\n aggressive way - EVEN\n UNFORTUNATELY IF IT'S NOT\n ACTUALLY A THREAT"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#84c2c8"
+        android:textSize="18dp"
+        android:text="Next"
+        android:id="@+id/btn_next_1"
+
+        />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

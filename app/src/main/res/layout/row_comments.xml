@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    app:contentPadding="2dp"
+    app:cardBackgroundColor="@android:color/white">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/avatarIv"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/ic_menu_camera"/>
+
+            <TextView
+                android:id="@+id/nameTv"
+                android:layout_width="321dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/avatarIv"
+                android:hint="title"
+                android:textColor="@android:color/black"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/commentTv"
+                android:layout_width="321dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/nameTv"
+                android:layout_toEndOf="@id/avatarIv"
+                android:hint="dec"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/timeTv"
+                android:layout_width="321dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/commentTv"
+                android:layout_toEndOf="@id/avatarIv"
+                android:hint="time"
+                android:textColor="@android:color/black"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+
+            <ImageButton
+                android:id="@+id/commentMoreBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="8dp"
+                android:background="@android:color/white"
+                android:src="@drawable/icon_more" />
+
+        </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

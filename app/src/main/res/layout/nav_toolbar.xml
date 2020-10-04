@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:fontFamily="@font/montserrat"
+            android:layout_width="120dp"
+            android:layout_height="21dp"
+            android:text="DA VINCI'S"
+            android:textColor="#84c2c8"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/text_DaVinci"
+            />
+        <TextView
+            android:fontFamily="@font/montserrat"
+            android:layout_width="145dp"
+            android:layout_height="21dp"
+            android:text="WORKSHOP"
+            android:textColor="#84c2c8"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_below="@id/text_DaVinci"
+            />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/iconmenu"
+        android:id="@+id/open_drawer_icon"
+        />
+
+
+
+</androidx.appcompat.widget.Toolbar>

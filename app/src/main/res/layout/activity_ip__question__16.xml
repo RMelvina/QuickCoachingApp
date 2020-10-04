@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Issues_Problems.IP_Question_16"
+    android:fitsSystemWindows="true"
+    android:id="@+id/layout_drawer"
+    android:background="#b6e1df">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/nav_toolbar" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="413dp"
+                android:layout_height="593dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout5"
+                            android:layout_width="407dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="6dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="316dp"
+                                android:layout_height="53dp"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="32dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="32dp"
+                                android:fontFamily="@font/montserrat"
+                                android:text="You have now answered a series of questions designed to:"
+                                android:textColor="#fff"
+                                android:textSize="19sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="317dp"
+                                android:layout_height="101dp"
+                                android:layout_marginLeft="32dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="32dp"
+                                android:fontFamily="@font/montserrat"
+                                android:text="-Help you put things in perspective.\n-Find a solution.\n-Move forward in a positive manner."
+                                android:textColor="#eb6e65"
+                                android:textSize="19sp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.542"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+
+                            <TextView
+                                android:id="@+id/textView6"
+                                android:layout_width="344dp"
+                                android:layout_height="104dp"
+                                android:layout_marginLeft="32dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="32dp"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="center"
+                                android:text="These questions were directly\n inspired by the excellent work of\n Paul Mcgee who created a\n system called “SUMO” coaching. "
+                                android:textColor="#fff"
+                                android:textSize="19sp"
+                                android:textStyle="bold"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.0"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="339dp"
+                                android:layout_height="164dp"
+                                android:layout_marginLeft="32dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="32dp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="center"
+                                android:text="The final part in this process is to read back the answers you wrote as you progressed through the questions. \n\nReflecting on your answers makes it more likely you will actually take positive action."
+                                android:textColor="#eb6e65"
+                                android:textSize="18sp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.686"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                                app:layout_constraintVertical_bias="0.109" />
+
+                            <Button
+                                android:id="@+id/nextbtn"
+                                android:layout_width="260dp"
+                                android:layout_height="60dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginBottom="20dp"
+                                android:background="@drawable/button_shape"
+                                android:onClick="btn_next"
+                                android:text="Show Me My Playback Summary"
+                                android:textColor="#84c2c8"
+                                android:textSize="18dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </ScrollView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/nav_drawer"
+        app:menu="@menu/toolbar_nav_drawer"
+        />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

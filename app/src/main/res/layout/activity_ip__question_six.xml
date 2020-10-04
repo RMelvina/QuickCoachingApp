@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Issues_Problems.IP_QuestionSix"
+    android:fitsSystemWindows="true"
+    android:id="@+id/layout_drawer"
+    android:background="#b6e1df">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <include
+            layout="@layout/nav_toolbar"
+            android:id="@+id/toolbar"/>
+
+        <RelativeLayout
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="false"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/thinking"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="189dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Using the same scale, where will this issue be when you look back on it in 6 month’s time "
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="35dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_question_sign"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/thinking"
+            android:layout_marginTop="100dp">
+
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:background="@drawable/button_shape"
+                android:text="NEXT"
+                android:layout_marginTop="95dp"
+                android:layout_marginBottom="20dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#84c2c8"
+                android:fontFamily="@font/montserrat"
+                android:textSize="20dp"
+                android:id="@+id/issues_scale_btn"
+                android:onClick="btn_next_scale_issuse"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thinking"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:id="@+id/scale"
+            >
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:background="@drawable/number_button"
+                android:id="@+id/scale_btn_1"
+                android:layout_marginRight="5dp"
+                android:text="1"/>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:background="@android:color/white"
+                android:id="@+id/scale_btn_2"
+                android:layout_marginRight="5dp"
+                android:text="2"/>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:background="@android:color/white"
+                android:id="@+id/scale_btn_3"
+                android:layout_marginRight="5dp"
+                android:text="3"/>
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/white"
+                android:id="@+id/scale_btn_4"
+                android:text="4"/>
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/white"
+                android:id="@+id/scale_btn_5"
+                android:text="5"/>
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:background="@android:color/white"
+                android:id="@+id/scale_btn_6"
+                android:layout_marginRight="5dp"
+                android:text="6"/>
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/white"
+                android:id="@+id/scale_btn_7"
+                android:text="7"/>
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/white"
+                android:id="@+id/scale_btn_8"
+                android:text="8"/>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/white"
+                android:id="@+id/scale_btn_9"
+                android:text="9"/>
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/number_button_2"
+                android:id="@+id/scale_btn_10"
+                android:text="10"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/nav_drawer"
+        app:menu="@menu/toolbar_nav_drawer"
+        />
+
+</androidx.drawerlayout.widget.DrawerLayout>

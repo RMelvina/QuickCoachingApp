@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#b6e1df"
+    android:layout_width="350dp"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chemicals released\n during stress"
+                android:textAllCaps="true"
+                android:fontFamily="@font/montserrat"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                />
+
+            <ImageView
+                android:gravity="center"
+                android:src="@drawable/slide_8_chemicals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:fontFamily="@font/montserrat"
+                android:text="The feelings of fear or anger are\n triggered by a range of hormones\n and neurotransmitters which are\n produced (mostly) by our brains.\n These signalling chemicals start\n our fight or flight response"
+                />
+
+            <ImageView
+                android:gravity="center"
+                android:src="@drawable/slide_8_chemicals_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="#ffffff"
+                android:fontFamily="@font/montserrat"
+                android:textColor="#84c2c8"
+                android:textSize="20dp"
+                android:text="Next"
+                android:id="@+id/btn_next_5"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

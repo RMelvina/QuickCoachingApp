@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b6e1df"
+    tools:context=".WebBlog.Blog">
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:id="@+id/word"
+                android:layout_width="0dp"
+                android:layout_height="552dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="32dp"
+                android:background="@drawable/main_white_frame"
+                android:elevation="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.937"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <EditText
+                    android:id="@+id/pTitleEt"
+                    android:layout_width="0dp"
+                    android:layout_height="49dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="#EBE6E3"
+                    android:fontFamily="@font/montserrat"
+
+                    android:hint="What is on your mind?"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/pImageIv"
+                    android:layout_width="0dp"
+                    android:layout_height="205dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="#b6e1df"
+                    android:minHeight="200dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/pTitleEt" />
+
+
+                <EditText
+                    android:id="@+id/pDescriptionEt"
+                    android:layout_width="0dp"
+                    android:layout_height="112dp"
+                    android:layout_marginTop="12dp"
+                    android:background="#EBE6E3"
+                    android:fontFamily="@font/montserrat"
+                    android:gravity="start"
+                    android:hint="Description:"
+                    android:inputType="textMultiLine"
+                    android:minHeight="120dp"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    app:layout_constraintEnd_toEndOf="@+id/pImageIv"
+                    app:layout_constraintStart_toStartOf="@+id/pImageIv"
+                    app:layout_constraintTop_toBottomOf="@+id/pImageIv" />
+
+                <Button
+                    android:id="@+id/pUploadBtn"
+                    android:layout_width="158dp"
+                    android:layout_height="41dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:background="#EBE6E3"
+                    android:fontFamily="@font/montserrat"
+                    android:text="PUBLISH"
+                    android:textColor="#070707"
+                    android:textSize="23sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/pDescriptionEt" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+</ScrollView>

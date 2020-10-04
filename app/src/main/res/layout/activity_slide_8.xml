@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/layout_drawer"
+    android:background="#b6e1df"
+    tools:context=".ResilienceandCopingMechanisms.Slide_8">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/nav_toolbar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="593dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout5"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+
+                            <TextView
+                                android:id="@+id/why"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="center"
+                                android:text="Fight or flight"
+                                android:textAllCaps="true"
+                                android:textColor="#fff"
+                                android:textSize="25sp"
+                                android:textStyle="bold"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout7"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout5">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/montserrat"
+                                android:gravity="center"
+                                android:text="During our fight or flight our\n brains produce a complex mix of\n chemicals (hormones and\n neurotansmitters).\n These chemicals can affect how\n we see things and react to them."
+                                android:textColor="#000"
+                                android:textSize="18dp"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/constraintLayout8"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginEnd="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout7">
+
+
+                            <Button
+                                android:id="@+id/btn_Hyper_vigilance"
+                                android:layout_width="0dp"
+                                android:layout_height="58dp"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="28dp"
+                                android:layout_marginEnd="20dp"
+                                android:background="#fff"
+                                android:text="Hyper vigilance - likely to\n see something as a threat"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.47"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <ImageView
+                                android:id="@+id/imageView11"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="44dp"
+                                android:layout_marginEnd="20dp"
+                                android:rotation="5490"
+                                android:src="@drawable/iconarrowright"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.495"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="@+id/btn_Hyper_vigilance" />
+
+
+                            <Button
+                                android:id="@+id/Threat_detected"
+                                android:layout_width="0dp"
+                                android:layout_height="62dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:background="#fff"
+                                android:text="THREAT DETECTED (CREATES STRESS)"
+                                app:layout_constraintEnd_toEndOf="@+id/btn_Hyper_vigilance"
+                                app:layout_constraintStart_toStartOf="@+id/btn_Hyper_vigilance"
+                                app:layout_constraintTop_toBottomOf="@+id/btn_Hyper_vigilance" />
+
+                            <ImageView
+                                android:id="@+id/imageView8"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="36dp"
+                                android:layout_marginEnd="20dp"
+                                android:rotation="5490"
+                                android:src="@drawable/iconarrowright"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.501"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+
+                            <Button
+                                android:id="@+id/Chemicals"
+                                android:layout_width="0dp"
+                                android:layout_height="62dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:background="#fff"
+                                android:text="Chemicals\n released"
+                                app:layout_constraintEnd_toEndOf="@+id/Threat_detected"
+                                app:layout_constraintStart_toStartOf="@+id/Threat_detected"
+                                app:layout_constraintTop_toBottomOf="@+id/Threat_detected" />
+
+                            <ImageView
+                                android:id="@+id/imageView9"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="39dp"
+                                android:layout_marginEnd="20dp"
+                                android:rotation="5490"
+                                android:src="@drawable/iconarrowright"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+
+                            <Button
+                                android:id="@+id/Brain_says"
+                                android:layout_width="0dp"
+                                android:layout_height="64dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="20dp"
+                                android:background="#fff"
+                                android:text="Brain says\n 'fight or flight'"
+                                app:layout_constraintBottom_toTopOf="@+id/imageView10"
+                                app:layout_constraintEnd_toEndOf="@+id/Chemicals"
+                                app:layout_constraintStart_toStartOf="@+id/Chemicals"
+                                app:layout_constraintTop_toBottomOf="@+id/Chemicals"
+                                app:layout_constraintVertical_bias="0.0" />
+
+                            <ImageView
+                                android:id="@+id/imageView10"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="36dp"
+                                android:rotation="5490"
+                                android:src="@drawable/iconarrowright"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.501"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+                            <Button
+                                android:id="@+id/Blood"
+                                android:layout_width="0dp"
+                                android:layout_height="61dp"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:background="#fff"
+                                android:text="Blood &amp; oxygen\n re-routed"
+                                app:layout_constraintEnd_toEndOf="@+id/Brain_says"
+                                app:layout_constraintStart_toStartOf="@+id/Brain_says"
+                                app:layout_constraintTop_toBottomOf="@+id/Brain_says" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="300dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/constraintLayout8">
+
+                            <Button
+
+                                android:id="@+id/next"
+                                android:layout_width="200dp"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:layout_marginBottom="60dp"
+                                android:background="#ffffff"
+                                android:fontFamily="@font/montserrat"
+                                android:onClick="btn_next"
+                                android:text="Next"
+                                android:textColor="#84c2c8"
+                                android:textSize="20dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </ScrollView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--            android:id="@+id/toolbar"/>-->
+
+<!--        <ScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_below="@id/toolbar">-->
+
+
+<!--            <LinearLayout-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent">-->
+
+<!--                <RelativeLayout-->
+
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    >-->
+
+
+
+<!--                    <TextView-->
+<!--                        android:fontFamily="@font/montserrat"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:text="Fight or fight"-->
+<!--                        android:textAllCaps="true"-->
+<!--                        android:textColor="#fff"-->
+<!--                        android:gravity="center"-->
+<!--                        android:layout_marginTop="20dp"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:id="@+id/why"-->
+<!--                        android:textSize="25sp"/>-->
+
+<!--                </RelativeLayout>-->
+
+
+
+<!--                <LinearLayout-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:orientation="vertical"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent">-->
+
+<!--                    <TextView-->
+<!--                        android:fontFamily="@font/montserrat"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:textSize="18dp"-->
+<!--                        android:layout_marginLeft="20dp"-->
+<!--                        android:layout_marginRight="20dp"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textColor="#000"-->
+<!--                        android:text="During our fight or fight our\n brains produce a complex mix of\n chemicals(hormones and\n neurotansmitters).\n These chemicals can affect how\n we see things and reactto them."-->
+<!--                        />-->
+
+<!--                  -->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content">-->
+
+<!--                        <Button-->
+<!--                            android:id="@+id/btn_Hyper_vigilance"-->
+<!--                            android:layout_width="215dp"-->
+<!--                            android:layout_height="70dp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginStart="20dp"-->
+<!--                            android:layout_marginTop="28dp"-->
+<!--                            android:layout_marginEnd="20dp"-->
+<!--                            android:background="#fff"-->
+<!--                            android:text="Hyper vigilance - likely to\n see something as a threat"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintHorizontal_bias="0.392"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--                        <ImageView-->
+<!--                            android:id="@+id/imageView8"-->
+<!--                            android:layout_width="90dp"-->
+<!--                            android:layout_height="82dp"-->
+<!--                            android:layout_marginTop="40dp"-->
+<!--                            android:rotation="5220"-->
+<!--                            android:src="@drawable/icon_arrow_1"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintHorizontal_bias="0.0"-->
+<!--                            app:layout_constraintStart_toEndOf="@+id/btn_Hyper_vigilance"-->
+<!--                            app:layout_constraintTop_toTopOf="parent" />-->
+
+
+<!--                        <Button-->
+<!--                            android:id="@+id/Threat_detected"-->
+<!--                            android:layout_width="148dp"-->
+<!--                            android:layout_height="67dp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="132dp"-->
+<!--                            android:layout_marginEnd="68dp"-->
+<!--                            android:background="#fff"-->
+<!--                            android:text="Threat detected\n(creats stress)"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintHorizontal_bias="0.989"-->
+<!--                            app:layout_constraintStart_toEndOf="@+id/Blood"-->
+<!--                            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--                        <ImageView-->
+
+<!--                            android:id="@+id/imageView9"-->
+<!--                            android:layout_width="90dp"-->
+<!--                            android:layout_height="82dp"-->
+<!--                            android:layout_marginTop="76dp"-->
+<!--                            android:layout_marginEnd="100dp"-->
+<!--                            android:background="@drawable/picture1"-->
+<!--                            android:rotation="6119"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintHorizontal_bias="0.979"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toBottomOf="@+id/imageView8" />-->
+
+<!--                        <Button-->
+<!--                            android:id="@+id/Chemicals"-->
+<!--                            android:layout_width="169dp"-->
+<!--                            android:layout_height="61dp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginTop="80dp"-->
+<!--                            android:layout_marginEnd="48dp"-->
+<!--                            android:background="#fff"-->
+<!--                            android:text="Chemicals\n released"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintHorizontal_bias="1.0"-->
+<!--                            app:layout_constraintStart_toEndOf="@+id/Brain_says"-->
+<!--                            app:layout_constraintTop_toBottomOf="@+id/Threat_detected" />-->
+
+<!--                        <ImageView-->
+
+<!--                            android:id="@+id/imageView10"-->
+<!--                            android:layout_width="90dp"-->
+<!--                            android:layout_height="82dp"-->
+<!--                            android:layout_marginTop="60dp"-->
+<!--                            android:layout_marginEnd="116dp"-->
+<!--                            android:rotation="9270"-->
+<!--                            android:src="@drawable/icon_arrow_1"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintTop_toBottomOf="@+id/imageView9" />-->
+
+
+<!--                        <ImageView-->
+
+<!--                            android:id="@+id/imageView12"-->
+<!--                            android:layout_width="90dp"-->
+<!--                            android:layout_height="70dp"-->
+<!--                            android:layout_marginEnd="148dp"-->
+<!--                            android:rotation="4320"-->
+<!--                            android:src="@drawable/icon_arrow_1"-->
+<!--                            app:layout_constraintEnd_toStartOf="@+id/imageView10"-->
+<!--                            app:layout_constraintHorizontal_bias="1.0"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toBottomOf="@+id/Brain_says" />-->
+
+<!--                        <Button-->
+<!--                            android:id="@+id/Brain_says"-->
+<!--                            android:layout_width="167dp"-->
+<!--                            android:layout_height="64dp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginStart="40dp"-->
+<!--                            android:layout_marginTop="276dp"-->
+<!--                            android:background="#fff"-->
+<!--                            android:text="Brain says\n 'fight or fight'"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintHorizontal_bias="0.0"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent" />-->
+
+
+<!--                        <ImageView-->
+
+<!--                            android:id="@+id/imageView11"-->
+<!--                            android:layout_width="90dp"-->
+<!--                            android:layout_height="71dp"-->
+<!--                            android:layout_marginStart="84dp"-->
+<!--                            android:background="@drawable/picture1"-->
+<!--                            android:rotation="6300"-->
+<!--                            app:layout_constraintBottom_toTopOf="@+id/Brain_says"-->
+<!--                            app:layout_constraintEnd_toStartOf="@+id/imageView9"-->
+<!--                            app:layout_constraintHorizontal_bias="0.0"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintVertical_bias="0.932" />-->
+
+<!--                        <Button-->
+<!--                            android:id="@+id/Blood"-->
+<!--                            android:layout_width="182dp"-->
+<!--                            android:layout_height="63dp"-->
+<!--                            android:layout_gravity="center"-->
+<!--                            android:layout_marginStart="40dp"-->
+<!--                            android:layout_marginBottom="7dp"-->
+<!--                            android:background="#fff"-->
+<!--                            android:text="Blood &amp; oxygen\n rerouted"-->
+<!--                            app:layout_constraintBottom_toTopOf="@+id/imageView11"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintHorizontal_bias="0.0"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintVertical_bias="1.0" />-->
+
+<!--                        <ImageView-->
+
+
+<!--                            android:layout_width="90dp"-->
+<!--                            android:layout_height="71dp"-->
+<!--                            android:layout_marginTop="352dp"-->
+<!--                            android:background="@drawable/picture1"-->
+<!--                            android:rotation="7290"-->
+<!--                            app:layout_constraintEnd_toStartOf="@+id/imageView10"-->
+<!--                            app:layout_constraintHorizontal_bias="0.866"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--                   -->
+
+<!--&lt;!&ndash;                    <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginTop="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:orientation="vertical"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_height="match_parent">&ndash;&gt;-->
+
+<!--&lt;!&ndash;                        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:id="@+id/btn_Hyper_vigilance"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:background="#fff"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:text="Hyper vigilance - likely to\n see something as a threat"&ndash;&gt;-->
+<!--&lt;!&ndash;                            />&ndash;&gt;-->
+
+<!--&lt;!&ndash;                    </LinearLayout>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                    <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginTop="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:orientation="horizontal"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_height="match_parent">&ndash;&gt;-->
+
+<!--&lt;!&ndash;                        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginLeft="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:background="#fff"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:id="@+id/Blood"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:text="Blood &amp; oxygen\n rerouted"&ndash;&gt;-->
+<!--&lt;!&ndash;                            />&ndash;&gt;-->
+
+<!--&lt;!&ndash;                        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginLeft="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:background="#fff"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:id="@+id/Threat_detected"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:text="Threat detected\n(creats stress)"&ndash;&gt;-->
+<!--&lt;!&ndash;                            />&ndash;&gt;-->
+
+<!--&lt;!&ndash;                    </LinearLayout>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                    <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_marginTop="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:orientation="horizontal"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                        android:layout_height="match_parent">&ndash;&gt;-->
+
+<!--&lt;!&ndash;                        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginLeft="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:background="#fff"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:id="@+id/Brain_says"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:text="Brain says\n 'fight or fight'"&ndash;&gt;-->
+<!--&lt;!&ndash;                            />&ndash;&gt;-->
+
+<!--&lt;!&ndash;                        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_marginLeft="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:layout_gravity="center"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:background="#fff"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:id="@+id/Chemicals"&ndash;&gt;-->
+<!--&lt;!&ndash;                            android:text="Chemicals\n released"&ndash;&gt;-->
+<!--&lt;!&ndash;                            />&ndash;&gt;-->
+
+<!--&lt;!&ndash;                    </LinearLayout>&ndash;&gt;-->
+
+
+
+<!--                </LinearLayout>-->
+
+<!--            </LinearLayout>-->
+
+<!--        </ScrollView>-->
+
+<!--    </RelativeLayout>-->
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/nav_drawer"
+        app:menu="@menu/toolbar_nav_drawer"
+        />
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

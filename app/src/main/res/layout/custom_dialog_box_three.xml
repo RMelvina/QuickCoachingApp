@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b6e1df">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--        <TextView-->
+        <!--            android:layout_width="300dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="Are you sure this is that important?"-->
+        <!--            android:textColor="@android:color/white"-->
+        <!--            android:fontFamily="@font/montserrat_bold"-->
+        <!--            android:layout_marginLeft="20dp"-->
+        <!--            android:layout_marginTop="30dp"-->
+        <!--            android:textSize="20dp"-->
+        <!--            android:id="@+id/txt_dialog_box_one_1"/>-->
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginLeft="30dp"-->
+        <!--            android:layout_marginRight="10dp"-->
+        <!--            android:text="@string/Custom_Dialog_Box_Three_Text_One"-->
+        <!--            android:textAlignment="center"-->
+        <!--            android:fontFamily="@font/montserrat"-->
+        <!--            android:layout_marginTop="30dp"-->
+        <!--            android:layout_centerHorizontal="true"-->
+        <!--            android:layout_below="@id/txt_dialog_box_one_1"-->
+        <!--            android:id="@+id/txt_dialog_box_three_1"-->
+        <!--            android:textSize="19dp" />-->
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="540dp"
+            android:background="@drawable/sc_1"
+            android:id="@+id/txt_dialog_box_three_2"
+            />
+
+
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/txt_dialog_box_three_2"
+            android:background="@drawable/button_shape"
+            android:text="NEXT"
+            android:fontFamily="@font/montserrat"
+            android:textSize="20dp"
+            android:onClick="btn_custom_dialog_box_part_two_next"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

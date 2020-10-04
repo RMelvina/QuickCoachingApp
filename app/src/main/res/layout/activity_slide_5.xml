@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/layout_drawer"
+    android:background="#b6e1df"
+    tools:context=".ResilienceandCopingMechanisms.Slide_5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/nav_toolbar"
+            android:id="@+id/toolbar"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+
+
+                    <TextView
+                        android:fontFamily="@font/montserrat"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="3 'R's - steps to\n follow"
+                        android:textAllCaps="true"
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:textStyle="bold"
+                        android:id="@+id/why"
+                        android:textSize="25sp"/>
+
+                </RelativeLayout>
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout11"
+                        android:layout_width="0dp"
+                        android:layout_height="216dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@android:color/transparent"
+                        android:clickable="true"
+                        android:onClick="btnrecognise"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+
+                        <TextView
+                            android:id="@+id/rtv1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:fontFamily="@font/montserrat"
+                            android:gravity="center"
+                            android:text="1.recognise"
+                            android:textAllCaps="true"
+                            android:textColor="#B71C1C"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <TextView
+                            android:layout_width="376dp"
+                            android:layout_height="160dp"
+                            android:layout_below="@+id/rtv1"
+                            android:fontFamily="@font/montserrat"
+                            android:gravity="center"
+                            android:text="Recognise when you are stressed\n and need to do something about\n it, (this includes understanding\n what is happening in your mind\n and body when you are under\n stress)."
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/rtv1" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+
+                        android:id="@+id/constraintLayout12"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@android:color/transparent"
+                        android:clickable="true"
+                        android:onClick="btnrespond"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout11">
+
+
+                        <TextView
+                            android:id="@+id/rtv2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="30dp"
+                            android:layout_marginEnd="30dp"
+                            android:fontFamily="@font/montserrat"
+                            android:gravity="center"
+                            android:text="2.Respond"
+                            android:textAllCaps="true"
+                            android:textColor="#E53935"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rtv2"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:fontFamily="@font/montserrat"
+                            android:gravity="center"
+                            android:text="Respond to the situation.\n Take short term action to keep\n yourself safe and move to a\n position where you think clearly."
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/rtv2" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout13"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:clickable="true"
+                        android:onClick="btnresolve"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout12">
+
+                        <TextView
+                            android:id="@+id/textView11"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/montserrat"
+                            android:gravity="center"
+                            android:text="2.Resolve"
+                            android:textAllCaps="true"
+                            android:textColor="#E53935"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:fontFamily="@font/montserrat"
+                            android:gravity="center"
+                            android:text="Take long term action to resolve or\n remove the issue permanently."
+                            android:textColor="#000"
+                            android:textSize="18dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginBottom="300dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout13"
+                        >
+
+                        <Button
+
+                            android:id="@+id/next"
+                            android:layout_width="200dp"
+                            android:layout_height="60dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:background="#ffffff"
+                            android:fontFamily="@font/montserrat"
+                            android:onClick="btn_next"
+                            android:text="Next"
+                            android:textColor="#84c2c8"
+                            android:textSize="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    <!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:id="@+id/rcardv1"-->
+<!--                        android:layout_width="400dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:clickable="true"-->
+<!--                       >-->
+
+
+
+
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:id="@+id/rcardv2"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        app:cardElevation="0dp"-->
+<!--                        app:cardBackgroundColor="@android:color/transparent"-->
+<!--                        android:onClick="btnrespond">-->
+<!--                        <RelativeLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_below="@+id/rtv2"-->
+<!--                        android:fontFamily="@font/montserrat"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:layout_marginLeft="20dp"-->
+<!--                        android:layout_marginRight="20dp"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="Respond to the situation.\n Take short term action to keep\n yourself safe and move to a\n position where you think clearly"-->
+<!--                        android:textColor="#000"/>-->
+
+<!--                        </RelativeLayout>-->
+<!--                    </androidx.cardview.widget.CardView>-->
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:id="@+id/rcardv3"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        app:cardElevation="0dp"-->
+<!--                        app:cardBackgroundColor="@android:color/transparent"-->
+<!--                        android:onClick="btnresolve">-->
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent">-->
+
+
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/rtv3"-->
+<!--                        android:fontFamily="@font/montserrat"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:textAllCaps="true"-->
+<!--                        android:layout_marginLeft="20dp"-->
+<!--                        android:layout_marginRight="20dp"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textColor="#EF5350"-->
+<!--                        android:text="3.Resolve"-->
+<!--                        />-->
+
+<!--                    <TextView-->
+<!--                        android:layout_below="@+id/rtv3"-->
+<!--                        android:fontFamily="@font/montserrat"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:layout_marginLeft="20dp"-->
+<!--                        android:layout_marginRight="20dp"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="Take long term action to resolve or\n removethe issue permanently"-->
+<!--                        android:textColor="#000"/>-->
+
+<!--                    </RelativeLayout>-->
+
+<!--                    </androidx.cardview.widget.CardView>-->
+<!--                    <Button-->
+
+<!--                        android:id="@+id/next"-->
+<!--                        android:layout_width="200dp"-->
+<!--                        android:layout_height="60dp"-->
+<!--                        android:layout_marginLeft="100dp"-->
+<!--                        android:layout_marginTop="20dp"-->
+<!--                        android:background="#ffffff"-->
+<!--                        android:fontFamily="@font/montserrat"-->
+<!--                        android:onClick="btn_next"-->
+<!--                        android:text="Next"-->
+<!--                        android:textColor="#84c2c8"-->
+<!--                        android:textSize="20dp" />-->
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/nav_drawer"
+        app:menu="@menu/toolbar_nav_drawer"
+        />
+
+</androidx.drawerlayout.widget.DrawerLayout>

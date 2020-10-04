@@ -1,0 +1,638 @@
+<resources>
+    <string name="app_name">CoachingApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_nav_drawer">NavDrawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+
+
+    -------Custom_Dialog_Box_One-------
+
+    <string name="DialogBoxGoalHelp_text_1">
+        If you need inspiration then try this link which will take you to one example of the many beautiful and inspiring videos of human achievement.
+    </string>
+
+
+    <string name="link">
+         <a href="https://www.youtube.com/watch?v=AVn-Yjr7kDc&amp;t=7s">Click me!</a>\n\n
+    </string>
+
+    <string name="DialogBoxGoalHelp_text_2">
+        If you can’t access sites like <b>youtube</b> then take a break and listen some music that inspires you and makes you feel good or look at a picture that makes you feel calm and  in a good place’ whether it’s a mountain, a beach, your favourite car or a loved one (we are all different).\n\n
+        Do Something to <b>reset</b> your <b>mental state.</b>  Trust us.. It makes a big difference.
+    </string>
+
+
+    -------Custom_Dialog_Box_Two-------
+
+    <string name="Custom_Dialog_Box_Text_Two">
+        "Often when we describe a problem, we describe the symptoms instead of the underlying problem that it is causing the symptom/issue.
+    </string>
+
+    <string name="Custom_Dialog_Box_Text_Three">
+        For example, a symptom might be “my staff members performance is very poor but I cannot talk to them about it because they accuse me of bullying them”
+    </string>
+
+    <string name="Custom_Dialog_Box_Text_Four">
+        Whilst the underlying problem could be “I have a really bad relationship with my staff member, there is a mutual distrust and it means everything is a fight” or “from what I can see, if a staff member accuses a manager of bullying, my company will always back the staff member and punish the manager”
+
+    </string>
+
+    <string name="Custom_Dialog_Box_Text_Fiver">
+       You can click ‘Next’ now, but
+        you may want to take this opportunity to double check you have noted down the
+        specific underlying problem or issue, not just a symptom.
+    </string>
+
+
+    -------Custom_Dialog_Box_Three-------
+    <string name="Custom_Dialog_Box_Three_Text_One">
+
+        It is ok if it is, we just need to double check this before we continue to make sure we help in the right way
+
+    </string>
+
+    <string name="Custom_Dialog_Box_Three_Text_Two">
+
+       10 Death\n\n
+
+       9 In danger of death\n\n
+
+       8 You are about to become homeless or experience a full mental/health breakdown\n\n
+
+       7 You may be about to lose your job or get a divorce if this issue is not resolve successfully\n\n
+
+    </string>
+
+
+    -------User_Dashboard-------
+    <string name="User_Dashboard_Text_One">
+        We provide Business Psychology Consultancy and Training services.
+    </string>
+
+
+    -------About_Us-------
+
+    <string name="About_Us_Text_One">
+        "&quot; Sometimes we just need someone to help us see what we already know - but are too busy or stressed to realise.&quot;"
+
+    </string>
+
+    <string name="About_Us_Text_Two">
+        This \'Quick Coaching\' App we will ask you some questions that will help you find perspective and solutions for tour problem, or help you plan to achieve your goal
+
+    </string>
+
+
+    -------Play_Back_Summary-------
+    <string name="Play_Back_Summary_1">
+        Why do you want to overcome or resolve this issue?
+    </string>
+
+    <string name="Play_Back_Summary_2">
+       What do you feel is at stake here?
+    </string>
+
+
+    <string name="Play_Back_Summary_3">
+       Issue or problem is appropriate?
+    </string>
+
+
+    <string name="Play_Back_Summary_4">
+        How could you influence or improve the situation? (If you chose to)\n
+        Explain?
+
+
+    </string>
+
+
+    <string name="Play_Back_Summary_5">
+       Improvements
+    </string>
+
+
+    <string name="Play_Back_Summary_6">
+     How will going through this situation make you stronger and wiser?
+    </string>
+
+    <string name="Play_Back_Summary_7">
+      What are the implications?
+    </string>
+
+
+    <string name="Play_Back_Summary_8">
+     What positives can take from this situation?
+    </string>
+
+
+    -------Ask_Your_Self-------
+
+    <string name="Ask_your_self_pg_1">
+
+        1.) What…specifically…is the challenge here?
+
+    </string>
+
+
+    <string name="Ask_your_self_pg_2">
+
+        2.) What can I do or put in place, to male this challenge easier?
+
+    </string>
+
+    <string name="Ask_your_self_pg_3">
+
+        3.) What would be the first step in doing that?
+
+    </string>
+
+
+    <string name="Ask_your_self_pg_4">
+
+        4.) Is there anyone who can help me?, Is there anyone I know who would find this much easier? if there is - what would they do differently?
+
+    </string>
+
+
+    <string name="Ask_your_self_pg_5">
+
+        5.) Can I do that? (the action that someone else would take) - if not, what would need to change so I could do that
+
+    </string>
+
+    <string name="Ask_your_self_pg_6">
+
+        6.) Am I missing any information here?
+            If so what is it and where can I get it from?
+    </string>
+
+
+    -------Last_Question-------
+
+    <string name="Last_Question">
+        (Make sure this is a precise timing point such as \"Monday at 9:00am\". Answers such as \"as soon as possible\" will not help you much.
+        The more specific you can get the date and time the more likely you are to actually do this.)
+
+    </string>
+
+    -------Display_Summary-------
+    <string name="Summary_1">
+
+        Your goal is to:
+
+
+    </string>
+
+    <string name="Summary_2_2">
+
+       Which you want to achieve because:
+
+
+    </string>
+
+
+    //how to overcome them and you plan to start your first action on:
+
+    <string name="Summary_2">
+
+       We hope this simple coaching exercise has helped.\n\n
+        If you are still unsure why not reach out the wider leadership community on this app. We have some great moderators and friendly experts ready to help.
+
+    </string>
+
+
+    -------RUN_TEXT-------
+
+    <string name="Run_Text_1">
+
+      One of the simplest examples of a road map is planning for something like a marathon run.
+	There are clear stages that lead up to this goal such as running 18miles, running a half marathon, running regularly, finding the time, Getting work and partner on board, doing the first run and maybe even buying shoes…
+
+
+    </string>
+
+    -------OVERCOMING_CHALLENGES-------
+
+
+    <string name="overcoming_challenges_paragraph_one">
+        In any plan there may be challenges. That is ok.
+    </string>
+
+    <string name="overcoming_challenges_paragraph_two">
+        The key here is to focus on how to overcome those challenges instead of \"these are reasons why I should not do this\".
+    </string>
+
+    <string name="overcoming_challenges_paragraph_three_part_one">
+        On the next screen you will see your road map plan again with the
+    </string>
+
+
+    <string name="overcoming_challenges_paragraph_three_part_two">
+        hazard icons next to the steps you indicated may be a challenge.
+    </string>
+
+
+    -------PROGRESS_CHECK-------
+
+
+    <string name="ProgressCheck_paragraph_one">
+        Ok so you have a clear goal, an understanding of why you want achieve it, a plan to achieve it and you have identified where the challenges may be.
+
+    </string>
+
+    <string name="ProgressCheck_paragraph_two">
+        Now let\'s sense check this and get you started.
+
+
+    </string>
+
+
+    -------WHY-------
+
+    <string name="Why_Text_one">
+       It can help us understand\n our <b>motivation</b> to go deeper.
+
+    </string>
+
+
+    <string name="Why_Text_two">
+       For example: if you want a promotion and more money to afford a new house - keep asking yourself <u>WHY</u> do I want this?
+
+    </string>
+
+    -------WHY_GOALS_STATEMENTS_ARE_SO_IMPORTANT-------
+
+    <string name="Why_So_Important_One">
+      Goal statement are important because:
+       They identify the real goal or WHY. This often shows other ways of achieving
+        the ultimate or deeper goal.
+
+    </string>
+
+
+    <string name="Why_So_Important_2">
+      For example in the first example of a goal statement we can see that perhaps “getting promoted” is not the best way to achieve the “more money”, which enables “a house”, which enables a “new life with my partner”.
+    </string>
+
+    <string name="Why_So_Important_3">
+      Perhaps what we should really be focusing on here is changing to a more lucrative career,  Moving to a different region or country, or focusing on our credit rating to enable a better mortgage offer.
+    </string>
+
+
+    -------BUILDING_A_ROADMAP_PLAN-------
+
+    <string name="Building_a_roadmap_plan">
+     Our next action is to build a set of steps that will help you achieve your goal. This is called a road map. Or more accurately a “reverse engineered road map”.
+
+    </string>
+
+
+    -------BUILDING_A_ROADMAP_PLAN_2-------
+
+    <string name="Rd_map_plan">
+
+       A good reverse engineered road map starts with your destination or goal. It then works backwards to identify each step that needs to take place in order to achieve the goal. It can also identify milestones and measurable if you need it to. Next you will find two examples of road maps – a
+      blank template and one for running a marathon.
+
+
+    </string>
+
+
+    ------CONFIDANT-------
+
+    <string name="Confidant_1">
+
+      It looks like you\'re not feeling that confident. That is OK.
+
+    </string>
+
+
+    <string name="Confidant_2">
+
+      Think about why you have given this the rating you have and ask yourself these questions:
+
+    </string>
+
+    <string name="Confidant_question_1">
+
+        1.) What…specifically…is the challenge here? - Why can\'t this be rated as an 9,8 or 10?\n\n
+        2.) What can you do or put in place to make this challenge easier?\n\n
+        3.) What would be the first step in doing that?\n\n
+        4.) Is there anyone who can help you?\n\n
+
+    </string>
+
+
+    <string name="Confidant_question_2">
+
+        5.) Is there anyone you can think of who would find this much easier?\n\n
+
+
+        6.)  What would the person you are thinking of do differently? Could you also do that?\n\n
+              If not, is there anything you need to change so that you could do that?\n\n
+        7.)  Are you missing any information?
+             What else do you need to know?\n\n
+
+            If so, what is the information and where can you go to get it?
+
+
+    </string>
+
+    ------RESPONDS-------
+
+    <string name="Respons_1">
+
+        Thinking of the\n issue or problem,\n has you’re your\n response so far been\n<b> appropriate?</b>"
+
+    </string>
+
+
+    ------ROADMAP_CEHCK_POINT-------
+
+
+    <string name="Rd_map_checkpoint">
+
+        Click <b>"NEXT"</b> again to continue to the next stage or close this text box and add more steps to your road map
+
+
+    </string>
+
+
+    ------ARE_U_SURE-------
+
+    <string name="are_you_sure_text_part_1">
+
+
+        <i> Are you absolutely sure that there is nothing that you could do to influence or improve the situation? Very rarely is there truly nothing we can do. – There is an old saying that ‘the only things in life that are certain are death and taxes’. This saying implies that these are the only things we can not truly change. But health gurus and accountants will agree that although you cannot stop death or taxes, - you can certainly influence them! Think again about your situation and focus on what you can do to influence or improve them. If you are still struggling with the idea that you can do anything to affect the situation, watch this short video… </i>
+
+
+    </string>
+
+
+    <string name="Behavioural_Signs">
+        Recognising when you are stress is the first step managing it and building your resilience. Here are some common signs of stress, select all the ones that apply to you:
+    </string>
+
+
+    -- RESILIENCE ----
+
+    <string name="res1_slide_20">
+        Visualising something that\n makes you happy - can\n actually make you happy.
+    </string>
+
+    <string name="res2_slide_20">
+        When you think of a place,\nperson or activity that makes\nyou happy, levels of stress chemicals\n such as dopamine and \noxytocin go up.
+    </string>
+
+    <string name="res3_slide_20">
+        Find an image that makes\n you feel good now......
+    </string>
+
+    <string name="res1_slide_21">
+        Any of these images working\n for you?\nIf not use photos on your\n phone, or Google Image search.
+    </string>
+
+
+    ------Resilience_Slide_16-------
+
+    <string name="slide_16">
+        If you need urgent help - we recommend that you contact at least one of the following people:
+
+    </string>
+
+    ------Resilience_Slide_18-------
+
+    <string name="slide_18_red">
+
+        When you slow your breathing\n rate or pulse rate you can <font color="#E53935">change</font>\n <font color="#E53935">stress levels.</font>
+
+    </string>
+
+    <string name="slide_18_2">
+
+        Use a pulse monitor to measure\n heart rate.(Fitbit etc.).Or, take\n your own pulse at your wrist, neck\n  or chest.
+
+    </string>
+
+    ------Resilience.Slide_12_Behavioural-------
+
+    <string name="slide_12_1">
+
+        <font color="#FF3D00">Recognising</font> when you experience too much stress is the\n first step in managing it and building your resilience.\n Here are some common signs of stress.\n
+
+    </string>
+    <string name="slide_12_2">
+    <font color="#DD2C00"><b>Select all things below that apply to</b></font>\n <font color="#DD2C00"><b>you:</b></font>
+    </string>
+    ------Resilience.Slide_19-------
+
+    <string name="slide_19_1">
+
+        Some people like to imagine they\n are taking in energy (oxygen) as\nthey breath in, and <font color="#7E57C2"><b>letting go of\ntension and stress as they\nbreath out.</b></font>
+
+    </string>
+
+    <string name="slide_19_2">
+
+        Remember by controlling your\nbreathing you are\ndirectly <font color="#7E57C2"><b>changing your\nbrain</b></font> and calming your ‘stress\nresponse’. This is all part of\nresilience.
+
+    </string>
+
+    ------Resilience.Slide_26-------
+
+    <string name="slide_26_1">
+        <font color="#1A237E"><b>1 min exercise is better than\n no exercise.</b></font> To release\n dopamine, you need to expend\n effort; get a little out of breath.\n You need to visit a gym or\n run a marathon.
+    </string>
+
+    <string name="slide_26_2">
+
+        <font color="#1A237E"><b>It\'s not about time, it\'s about\n effort.</b></font> A few press-ups or a\n short run can release\n dopamine (a reward\n chemical). See how you feel\n after doing just that initial 60\n seconds of fast activity, then\n stop, breathe deeply and\n consider if you want to do\n another 60 seconds.
+
+    </string>
+
+    ------Resilience.Slide_28-------
+
+    <string name="slide_28">
+
+        <font color="#FFAB91">Take a few minutes to list as many things as you can to be grateful for, once you have finished press Next:</font>
+
+    </string>
+
+    <string name="slide_28_2">
+
+        <font color="#FFAB91">Take a few minutes to list as many things that cheer you up or make you happy.</font>
+
+    </string>
+
+    ------Resilience.Slide_30-------
+
+    <string name="slide_30">
+
+        Go to a park, forest or some\n countryside. <font color="#1B5E20">Just a few minutes in a natural environment</font> can\n make a difference to our\n emotional state (how we feel) and how we are perceiving\n things.
+
+    </string>
+
+    ------Resilience.Slide_31-------
+
+    <string name="slide_31">
+
+        A common cause of stress and\n causes of burnout is trying to\n please everyone and <font color="#37474F">not feeling</font>\n <font color="#7E57C2">able to say ‘no’.</font>
+
+    </string>
+
+    <string name="slide_31_2">
+
+        Learning how to <font color="#37474F">say ‘no’ in a</font>\n <font color="#37474F">collaborative, professional</font>\n <font color="#37474F">way</font> that does not invite conflict,\n can make a huge difference to\n stress levels.
+
+    </string>
+
+    ------Resilience.Slide_35-------
+
+    <string name="slide_35">
+
+    <b>Getting up at 5am to run is\n easier if you remember WHY\n you are doing it. Working late\n might be tolerate if you\n remember what you want to\n achieve from your work.</b>
+
+    </string>
+
+    ------Resilience.Slide_36-------
+
+    <string name="slide_36">
+
+        Think about what you are\n trying to endure or\n achieve, <font color="#2b59a2"><b>WHY</b></font> are you doing\n it?
+
+    </string>
+
+    ------Resilience.Slide_39-------
+
+    <string name="slide_39">
+
+        Step 3. <font color="#E53935">Resolve</font>\n Take action to\n find a resolve
+
+    </string>
+
+    ------Resilience.Slide_40-------
+
+    <string name="slide_40">
+
+        This section is also linked with:\n\n  <b>Leadership Community</b>\n\n  <b>Quick coaching sections in this App</b>
+
+    </string>
+
+
+    ------Resilience.Slide_42-------
+
+    <string name="slide_42">
+
+        Resilient people believe they\n can always exert <u>some</u> control\n over event even if they cannot\n control all of the event.
+
+    </string>
+
+    <string name="slide_42_2">
+
+        We cannot control the weather\n -but we can control how we\n dress for it!
+
+    </string>
+
+    ------Resilience.Slide_42_2-------
+
+    <string name="slide_42_2_1">
+
+        Resilient people get involved-\n even if don\'t like that what\n is happening.\n\n Being involved is one of the\n ways they can exert some\n control over what is happening\n to them.\n\n Burying your head in the sand\n or \'hiding\' from something bad\n rarely helps anyone.\n\n Don\'t like where the ship is\n heading? Then you had better\n grab the wheel!
+
+    </string>
+
+    ------Resilience.Slide_42_3-------
+
+    <string name="slide_42_2_3">
+
+        Resilient people view negative\n life events as challenges\n instead of threats.\n\n A challenge is an opportunity to\n test yourself, learn, grow and\n even get stronger.
+
+    </string>
+
+    ------Resilience.Slide_43-------
+
+    <string name="slide_43">
+
+
+        When Mahatma Gandhi said this\n he was facing one of the most\n powerful and well equipped\n armies in the world.\n\n Gandhi was making the point\n that although he could not stop\n the British putting him in prison\n or even killing him, he would\n always be the master of his own\n mind.\n\n His decisions and his actions.\n\n There would always be\n something that HE could control.
+
+    </string>
+
+
+    ------Resilience.Slide_44-------
+
+    <string name="slide_44">
+
+    Consider the issue that is causing\n you stress and identify what you can\n control and which you can’t.\n\n
+    Hint:  There is ALWAYS something\n you can control. e.g. your own\n reaction to a situation or person,\n how and who you say ‘no’ to.
+
+    </string>
+
+    ------Resilience.Slide_45-------
+
+    <string name="slide_45">
+    It is a natural instinct to turn away\n from, or ignore something that is\n frightening or causing us pain.\n The trouble is that whilst\n pretending something isn’t going\n to happen can make us feel good\n in the short term – it doesn’t\n actually stop it happening. –\n Think of the Ostrich burying its\n head in the sand!
+    </string>
+
+    ------Resilience.Slide_46-------
+
+    <string name="slide_46">
+
+        If there is a threat (such as\n redundancy, illness or financial\n difficulty) and you cannot\n genuinely avoid it, then you are\n better off learning as much about\n it as you can about it.\n\n Get involved and see how you\n can influence it.
+
+    </string>
+
+    ------Resilience.Slide_47-------
+
+    <string name="slide_47">
+
+        Our brains respond differently to\n challenges than to threats. Try\n to see the difficulty you face as\n challenge, instead of just a threat.\n\n
+        Try focusing on what positive\n opportunities it may present you,\n instead of just how it might harm\n you. e.g. redundancy, focus on\n how to get a better paid job, or a\n job you really love, or a good\n leader to work for.\n\n
+        You can still be frightened by it.\n Accept that you can learn from\n the situation and even some\n positives from it.
+
+    </string>
+
+    ------Resilience.Slide_48-------
+
+    <string name="slide_48">
+
+        E.g. people suffering great loss\n can find some comfort in starting\n a charity to tackle the issue that\n created the negative situation. It\n can give us purpose and a sense\n of purpose can help ease the pain\n and give us strength to carry on.\n\n
+        <font color="#FFFFFF"><b>Find your \'WHY\'. Google guru\n Simon Sinek to learn more about\n finding your passion in life.</b></font>\n\n
+        We have already explored the\n connection between purpose and\n resilience earlier in the \'Respond –\n purpose\'  section of this app.
+
+
+    </string>
+
+    ------Resilience.Slide_50-------
+
+    <string name="slide_50_1">
+
+        <b>Recognise</b>\n Recognise when you are stressed and\n need to do something about it.(this\n includes understanding what is\n happening in your mind and body\n when you are under stress).
+
+    </string>
+
+    <string name="slide_50_2">
+
+        <b>Response</b>\n Recognise when you are stressed and\n need to do something about it.(this\n includes understanding what is\n happening in your mind and body\n when you are under stress).
+
+    </string>
+
+    <string name="slide_50_3">
+
+        <b>Resolve</b>\n Recognise when you are stressed and\n need to do something about it.(this\n includes understanding what is\n happening in your mind and body\n when you are under stress).
+
+    </string>
+
+    <string name="search_yourtube">
+        Search youtube for \"people are awesome\".
+    </string>
+</resources>

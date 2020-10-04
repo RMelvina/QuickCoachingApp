@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "138860217432",
+    "firebase_url": "https://coachingapp-a95d5.firebaseio.com",
+    "project_id": "coachingapp-a95d5",
+    "storage_bucket": "coachingapp-a95d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138860217432:android:abf3a5ea0d25ac441f762d",
+        "android_client_info": {
+          "package_name": "com.example.coachingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138860217432-o385arbtnia280vvbd64s34v2nhrd0p3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coachingapp",
+            "certificate_hash": "79a976b30ee1990a15a47679dded7242e96874ba"
+          }
+        },
+        {
+          "client_id": "138860217432-4nm0us0dd7bgqm0jd7hjrkta2c2bug74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiomTBzDW89FrFop17NolxbsgCbbOk_zA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138860217432-4nm0us0dd7bgqm0jd7hjrkta2c2bug74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138860217432:android:4dc7e93ef62207cd1f762d",
+        "android_client_info": {
+          "package_name": "com.example.davincisworkshop_quickcoachingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138860217432-9nalhbrv7bmggf2928c5v7hd0biong7t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.davincisworkshop_quickcoachingapp",
+            "certificate_hash": "79a976b30ee1990a15a47679dded7242e96874ba"
+          }
+        },
+        {
+          "client_id": "138860217432-4nm0us0dd7bgqm0jd7hjrkta2c2bug74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiomTBzDW89FrFop17NolxbsgCbbOk_zA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138860217432-4nm0us0dd7bgqm0jd7hjrkta2c2bug74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138860217432:android:c1f05a30e774382b1f762d",
+        "android_client_info": {
+          "package_name": "com.example.quickcoachingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138860217432-taoegilrmllimhac8mb76rh2l7mc649p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quickcoachingapp",
+            "certificate_hash": "79a976b30ee1990a15a47679dded7242e96874ba"
+          }
+        },
+        {
+          "client_id": "138860217432-4nm0us0dd7bgqm0jd7hjrkta2c2bug74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiomTBzDW89FrFop17NolxbsgCbbOk_zA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138860217432-4nm0us0dd7bgqm0jd7hjrkta2c2bug74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

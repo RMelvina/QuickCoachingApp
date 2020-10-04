@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b6e1df">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/title_layout">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="@font/montserrat"
+                android:text="ROADMAP CHECKPOINT"
+                android:textSize="26dp"
+                android:gravity="top"
+                android:layout_marginTop="20dp"
+                android:id="@+id/title_roadmap_steps"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="223dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_layout"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="false"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/thinking"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/montserrat"
+                android:gravity="left"
+                android:text=" Are you sure you have covered all the steps you need in your road map?”"
+                android:textColor="@android:color/white"
+
+                android:textSize="24sp" />
+
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_below="@id/title_layout"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="false"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/thinking"
+            android:id="@+id/thinking_2">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:background="@drawable/question" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thinking_2"
+            android:layout_marginTop="155dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/thinking_3">
+
+
+            <TextView
+                android:id="@+id/txt_rd_checkpoint_pg_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:text="@string/Rd_map_checkpoint"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>
